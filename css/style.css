@@ -1,6 +1,12 @@
 .container{
     background-color: #E7ECF6;
 }
-.nav{
+.custom-nav{
+    color: #192949;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.custom-nav:hover {
     color: #192949;
 }
