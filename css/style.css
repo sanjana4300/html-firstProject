@@ -1,4 +1,9 @@
-.container{
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.paper{
     background-color: #E7ECF6;
 }
 .custom-nav{
@@ -9,4 +14,11 @@
 
 .custom-nav:hover {
     color: #192949;
+}
+
+.custom-sidebar {
+    background-color: #192949;
+    color: white;
+    height:88vh;
+    font-size: 16px;
 }
