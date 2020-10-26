@@ -22,3 +22,10 @@ html, body {
     height:88vh;
     font-size: 16px;
 }
+
+.nav-link[data-toggle].collapsed:before {
+    content: " ▾";
+}
+.nav-link[data-toggle]:not(.collapsed):before {
+    content: " ▴";
+}
