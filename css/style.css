@@ -30,3 +30,13 @@ html, body {
 .nav-link[data-toggle]:not(.collapsed):before {
     content: " ▴";
 }
+
+.custom-button {
+        background-image: linear-gradient(to right, #2C578A, #20849C);
+        color: white;
+        font-size: 15;
+        font-weight: bold;
+        padding: 0 50px;
+        border-radius: 50px;
+        height: 56px;
+}
