@@ -4,6 +4,7 @@ html, body {
 }
 
 .paper{
+    padding-top: 5%;
     background-color: #E7ECF6;
 }
 .custom-nav{
