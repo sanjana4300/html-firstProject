@@ -10,20 +10,6 @@
 </head>
 
 <body>
-  <!-- nav -->
-  <nav class="custom-nav">
-    <ul class="nav justify-content-end mr-3 my-3">
-      <li class="nav-item">
-        <a class="nav-link active custom-nav" href="#">New Bill</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link custom-nav" href="#">History</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link custom-nav" href="#">Notifications</a>
-      </li>
-    </ul>
-  </nav>
   <div class="container-fluid pl-0 h-100">
     <div class="row h-100">
       <div class="col-md-3">
@@ -51,110 +37,138 @@
                   class="d-none d-sm-inline">Reports</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#"><i class="fa fa-square"></i> <span
-                  class="d-none d-sm-inline">User management</span></a>
+              <a class="nav-link text-white" href="#"><i class="fa fa-square"></i> <span class="d-none d-sm-inline">User
+                  management</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#"><i class="fa fa-square"></i> <span
                   class="d-none d-sm-inline">Setting</span></a>
             </li>
-            
           </ul>
         </div>
       </div>
 
+      <!-- Nav and main content -->
       <div class="col-md-9">
-        <!-- Main content -->
-        <div class="container paper">
-          <!-- button -->
-          <div class="d-flex justify-content-end">
-            <button class="btn text-white mr-5 mb-3 custom-button">SAVE</button>
+        <div class="row">
+          <div class="col-12">
+            <!-- nav -->
+            <nav class="custom-nav">
+              <ul class="nav justify-content-end mr-3 my-3">
+                <li class="nav-item">
+                  <a class="nav-link active custom-nav" href="#">New Bill</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-nav" href="#">History</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-nav" href="#">Notifications</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          
-          
-          <div class="container pr-5"></div>
-            <form>
-              <div class="row">
-                <div class="col-4">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Flat No." autofocus>
-                  </div>
-                </div>
-                OR
-                <div class="col-4">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Owner name">
-                  </div>
-                </div>
-                
-
-                <div class="col-6">
-                  <!-- <input type="text" class="form-control"> -->
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputPassword1"
-                      placeholder="Maintainance Charges">
-                  </div>
-                </div>
-                <div class="col-6">
-                  <!-- <input type="text" class="form-control" placeholder="Sinking Fund"> -->
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Sinking Fund">
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Repair Fund">
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Municiple Taxes">
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Water Charges">
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Parking Charges">
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Non Occupancy Charges">
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Due Date">
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Others">
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Interest On Late Payment">
-                  </div>
-                </div>
+          <div class="col-12">
+            <!-- Main content -->
+            <div class="container paper">
+              <!-- button -->
+              <div class="d-flex justify-content-end">
+                <button class="btn text-white mr-5 mb-3 custom-button">SAVE</button>
               </div>
-            </form>
-            Payment Mode
+              <div class="container pr-5"></div>
+              <form>
+                <div class="row">
+                  <div class="col-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Flat No." autofocus>
+                    </div>
+                  </div>
+                  OR
+                  <div class="col-4">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Owner name">
+                    </div>
+                  </div>
+
+
+                  <div class="col-6">
+                    <!-- <input type="text" class="form-control"> -->
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="exampleInputPassword1"
+                        placeholder="Maintainance Charges">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <!-- <input type="text" class="form-control" placeholder="Sinking Fund"> -->
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Sinking Fund">
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Repair Fund">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Municiple Taxes">
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Water Charges">
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Parking Charges">
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Non Occupancy Charges">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Due Date">
+                    </div>
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Others">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Interest On Late Payment">
+                    </div>
+                  </div>
+                </div>
+              </form>
+              Payment Mode
+            </div>
           </div>
         </div>
-        
-
       </div>
     </div>
+
+    <div class="row h-100">
+      <div class="col-md-3">
+
+      </div>
+
+      <div class="col-md-9">
+
+      </div>
+
+
+    </div>
+  </div>
   </div>
   <script src="https://kit.fontawesome.com/fe7d951426.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
