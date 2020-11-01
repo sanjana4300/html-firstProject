@@ -54,6 +54,7 @@ html, body {
 }
 .A{
     display: inline-block;
+    padding-bottom: 60px;
 }
 .B{
     display: inline-block;
