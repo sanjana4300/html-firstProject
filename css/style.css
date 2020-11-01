@@ -27,11 +27,19 @@ html, body {
     font-size: 16px;
 }
 
+.custom-sidebar-item {
+    padding: 8px;
+}
+
 .nav-link[data-toggle].collapsed:before {
     content: " ▾";
 }
 .nav-link[data-toggle]:not(.collapsed):before {
     content: " ▴";
+}
+
+.sidebar-active {
+    background-image: linear-gradient(to right, #2C578A, #20849C);
 }
 
 .custom-button {
