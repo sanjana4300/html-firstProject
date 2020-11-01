@@ -52,3 +52,10 @@ html, body {
         height: 56px;
         margin: 0 60px;
 }
+.A{
+    display: inline-block;
+}
+.B{
+    display: inline-block;
+    padding-left: 500px;
+}
